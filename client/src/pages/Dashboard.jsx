@@ -8,7 +8,7 @@ import {
     RefreshCw
 } from "lucide-react";
 
-import API from "../services/api";
+import API from "../services/Api";
 
 const Dashboard = () => {
     const [dashboard, setDashboard] = useState({

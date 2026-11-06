@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Plus, Search, RefreshCw } from "lucide-react";
 
-import API from "../services/api";
+import API from "../services/Api";
 import ProductForm from "../components/ProductForm";
 import ProductTable from "../components/ProductTable";
 

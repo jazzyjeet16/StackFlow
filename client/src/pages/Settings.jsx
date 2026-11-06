@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 import { Save, Settings as SettingsIcon } from "lucide-react";
-import API from "../services/api";
+import API from "../services/Api";
 
 const Settings = () => {
     const [threshold, setThreshold] = useState(5);
